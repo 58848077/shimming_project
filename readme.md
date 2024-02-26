@@ -5,17 +5,13 @@
     ```
     git clone https://github.com/58848077/shimming_project.git
     ```
-2. 進入資料夾
-    ```
-    cd shimming
-    ```
 
-3. 啟動docker
+2. 啟動docker
     ```
     docker compose up --build
     ```
 
-4. 進入頁面
+3. 進入頁面
    ```
    localhost:3000/
    ```
