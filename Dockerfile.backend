@@ -1,0 +1,5 @@
+FROM python:3.9.10-slim-bullseye
+WORKDIR /backend
+COPY ./backend/ ./
+RUN pip install --upgrade pip
+RUN pip install -r requirements.txt
